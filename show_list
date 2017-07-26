@@ -1,0 +1,157 @@
+{
+	"Queue" : [
+		{
+			"Title" : "Another",
+			"EP" : "1",
+			"URL" : "http://www.crunchyroll.com/another"
+		},
+		{
+			"Title" : "Mob Psycho 100",
+			"EP" : "1",
+			"URL" : "http://www.crunchyroll.com/mob-psycho-100"
+		},
+		{
+			"Title" : "Yuuki Yuuna",
+			"EP" : "1",
+ 			"URL" : "http://anilinkz.to/series/yuuki-yuuna-wa-yuusha-de-aru"
+		},
+		{
+			"Title" : "SAOA(Sword Art Online Abridged",
+			"EP" : "1",
+			"URL" : "https://www.youtube.com/playlist?list=PLuAOJfsMefuej06Q3n4QrSSC7qYjQ-FlU"
+		},
+		{
+			"Title" : "Shakunetsu no Takkyuu Musume",
+			"EP" : "4",
+ 			"URL" : "http://anilinkz.to/series/shakunetsu-no-takkyuu-musume"
+		},
+		{
+			"Title" : "Mirai Nikki",
+			"EP" : "22",
+ 			"URL" : "http://www.crunchyroll.com/the-future-diary"
+		},
+		{
+			"Title" : "Death Parade",
+			"EP" : "10",
+ 			"URL" : "http://www.crunchyroll.com/death-parade"
+		},
+		{
+			"Title" : "Charlotte",
+			"EP" : "1",
+ 			"URL" : "http://www.crunchyroll.com/charlotte"
+		},
+		{
+			"Title" : "gochuumon ha usagi desu ka(Is the order a rabbit?)",
+			"EP" : "3",
+ 			"URL" : "http://www.crunchyroll.com/is-the-order-a-rabbit"
+		},
+		{
+			"Title" : "Code Geass",
+			"EP" : "4",
+ 			"URL" : "http://www.crunchyroll.com/code-geass"
+		},
+		{
+			"Title" : "Game of Thrones",
+			"EP" : "S1E10",
+ 			"URL" : "N\\A"
+		},
+		{
+			"Title" : "Jeopardy",
+			"EP" : "83",
+ 			"URL" : "http://sockshare.net/watch/kvXRgKGe-jeopardy-season-2017.html"
+		},
+		{
+			"Title" : "Akame ga Kill",
+			"EP" : "11",
+			"URL" : "http://www.crunchyroll.com/akame-ga-kill"
+		}
+	],
+
+	"Current Season" : [
+		{
+			"Title" : "Fate Apocyra",
+ 			"EP" : "03",
+			"DOW" : "Sunday",
+			"URL" : "http://anilinkz.to/series/fate-apocrypha"
+		}
+	],
+
+	"Crunchyroll" : [
+		{
+			"Title" : "Boku no Hero Academia", 
+			"DOW" : "Saturday",
+			"Time" : "02:30"
+		},
+		{
+			"Title" : "Centaur's Life", 
+			"DOW" : "Sunday",
+			"Time" : "07:30"
+		},
+		{
+			"Title" : "Clean Freak Aoyama-kun", 
+			"DOW" : "Sunday",
+			"Time" : "09:30"
+		},
+		{
+			"Title" : "Resturaunt to Another World", 
+			"DOW" : "Monday",
+			"Time" : "11:05 "
+		},
+		{
+			"Title" : "New Game", 
+			"DOW" : "Tuesday",
+			"Time" : "07:00"
+		},
+		{
+			"Title" : "Fastest Finger First", 
+			"DOW" : "Tuesday",
+			"Time" : "12:30"
+		},
+		
+		{
+			"Title" : "Sakura Quest", 
+			"DOW" : "Wednesday",
+			"Time" : "09:00"
+		},
+		{
+			"Title" : "Classroom of the elite", 
+			"DOW" : "Wednesday",
+			"Time" : "09:00"
+		}
+	],
+
+	"Finished" : [
+		{
+			"Title" : "sabagebu! - Survival Game Club!",
+			"Date" : "March 2017"
+ 		},
+		{
+			"Title" : "Yuyushiki",
+			"Date" : "Unknown"
+ 		},
+		{
+			"Title" : "Black rock shooter",
+			"Date" : "Unknown"
+ 		},
+		{
+			"Title" : "Mikagura gakuen",
+			"Date" : "Unknown"
+ 		},
+		{
+			"Title" : "Amanchu",
+			"Date" : "Unknown"
+ 		},
+		{
+			"Title" : "Erased",
+			"Date" : "Unknown"
+ 		},
+		{
+			"Title" : "Flying witch",
+			"Date" : "Unknown"
+ 		},
+		{
+			"Title" : "Anne Happy",
+			"Date" : "Unknown"
+ 		}
+	]
+}
