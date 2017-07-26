@@ -22,8 +22,13 @@ def longest_str(entries,key):
 			max = l_str
 	return max
 
+show_css = "table, th, td { \
+	border: 1px solid black; \
+	border-collapse: collapse; \
+}"
+
 def format_data(data):
-	format_str = '<html><head><style>table, th, td {border: 1px solid black;border-collapse: collapse;}</style></head><body>'
+	format_str = '<html><head><style>'+show_css+'</style></head><body>'
 	#cat (category)
 	for cat_name,cat_values  in data.items():
 		

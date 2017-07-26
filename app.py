@@ -11,8 +11,6 @@ def hello():
         data = json.load(file, object_pairs_hook=OrderedDict)
 
     formatted = my_json_formatter.format_data(data)
-    with open("show_list_formatted.html",'w') as file:
-        file.write(formatted)
 
     return formatted
 
