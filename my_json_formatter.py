@@ -29,7 +29,6 @@ def format_data(data):
 		
 		catv0 = cat_values[0]
 		keys = catv0.keys()
-		space_lengths = {key : longest_str(cat_values,key) for key in keys}
 		format_str += "<table><thead>"
 		#Add table names
 		f_str = ""
@@ -52,9 +51,9 @@ def format_data(data):
 			for field_name, field_value in entry.items():
 				format_str += "<td>"
 				if field_name == "URL":
-					format_str += '<a href="' + add_space(field_value,space_lengths[field_name]) + '">' + field_value + '</a>'
+					format_str += '<a href="' + field_value+ '">' + field_value + '</a>'
 				else:
-					format_str += add_space(field_value,space_lengths[field_name])
+					format_str += field_value
 				format_str += "</td>"
 			#format_str = format_str[:-2]
 			#format_str += "<br/>"
