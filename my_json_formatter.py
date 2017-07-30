@@ -21,14 +21,11 @@ def longest_str(entries,key):
 		if l_str > max:
 			max = l_str
 	return max
-
-show_css = "table, th, td { \
-	border: 1px solid black; \
-	border-collapse: collapse; \
-}"
+with open("show.css",'r') as f:
+	show_css = str(f.read())
 
 def format_data(data):
-	format_str = '<html><head><style>'+show_css+'</style></head><body>'
+	format_str = '<html><head><style>'+str(show_css)+'</style></head><body>'
 	#cat (category)
 	for cat_name,cat_values  in data.items():
 		
@@ -41,14 +38,8 @@ def format_data(data):
 			f_str += "<th>" + key + "</th>"
 		f_str += "</thead><tbody>"
 		format_str += f_str
-		#f_str = f_str[:-2]
-		#f_str += "<br/>"
-		#line = "-" * len(f_str)
-		#f_str += line + "<br/>"
 
-		#cat = add_space(cat_name,len(line))
-		format_str += "<p/>" + cat_name + "<p/>"
-		#format_str += f_str
+		format_str += "<h2>" + cat_name + "<h2/>"
 
 		#Contstruct the table entries
 		for entry in cat_values:
@@ -60,8 +51,6 @@ def format_data(data):
 				else:
 					format_str += field_value
 				format_str += "</td>"
-			#format_str = format_str[:-2]
-			#format_str += "<br/>"
 			format_str += "</tr>"
 		format_str += "</tbody></table></body></html>"
 	return format_str
