@@ -21,21 +21,26 @@ def longest_str(entries,key):
 		if l_str > max:
 			max = l_str
 	return max
-with open("show.css",'r') as f:
-	show_css = str(f.read())
 
 def format_data(data):
-	format_str = '<html><head><style>'+str(show_css)+'</style></head><body>'
+	format_str = '<html><head><script type="text/javascript" src="{{ url_for(\'static\', filename=\'show.js\') }}"></script>\
+	<link rel= "stylesheet" type= "text/css" href= "{{ url_for(\'static\',filename=\'show.css\') }}"></head><body '
+	for cat_name in data.keys():
+		format_str += f"onload=makeTableScroll(\"{cat_name}\") "
+	format_str += ">"
 	#cat (category)
 	for cat_name,cat_values  in data.items():
 		
 		catv0 = cat_values[0]
 		keys = catv0.keys()
-		format_str += "<table><thead>"
+		format_str += f"<table id='{cat_name}'><thead>"
 		#Add table names
+		cnt = 0
 		f_str = ""
 		for key in keys:
-			f_str += "<th>" + key + "</th>"
+			f_str += f"<th onclick='sortTable({cnt},\"{cat_name}\")'>" + key + "</th>"
+			cnt += 1
+
 		f_str += "</thead><tbody>"
 		format_str += f_str
 

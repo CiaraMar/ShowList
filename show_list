@@ -1,14 +1,24 @@
 {
 	"Queue" : [
 		{
+			"Title" : "Scrapped Princess",
+			"EP" : "1",
+			"URL" : "http://www.crunchyroll.com/scrapped-princess/videos"
+		},
+		{
+			"Title" : "haibane renmei",
+			"EP" : "1",
+			"URL" : "http://www.crunchyroll.com/haibane-renmei"
+		},
+		{
+			"Title" : "Black Butler",
+			"EP" : "1",
+			"URL" : "http://www.crunchyroll.com/black-butler/videos"
+		},
+		{
 			"Title" : "Another",
 			"EP" : "1",
 			"URL" : "http://www.crunchyroll.com/another"
-		},
-		{
-			"Title" : "Mob Psycho 100",
-			"EP" : "1",
-			"URL" : "http://www.crunchyroll.com/mob-psycho-100"
 		},
 		{
 			"Title" : "Yuuki Yuuna",
@@ -17,7 +27,7 @@
 		},
 		{
 			"Title" : "SAOA(Sword Art Online Abridged",
-			"EP" : "1",
+			"EP" : "4",
 			"URL" : "https://www.youtube.com/playlist?list=PLuAOJfsMefuej06Q3n4QrSSC7qYjQ-FlU"
 		},
 		{
@@ -41,7 +51,7 @@
  			"URL" : "http://www.crunchyroll.com/charlotte"
 		},
 		{
-			"Title" : "gochuumon ha usagi desu ka(Is the order a rabbit?)",
+			"Title" : "Gochuumon ha usagi desu ka(Is the order a rabbit?)",
 			"EP" : "3",
  			"URL" : "http://www.crunchyroll.com/is-the-order-a-rabbit"
 		},
@@ -57,101 +67,163 @@
 		},
 		{
 			"Title" : "Jeopardy",
-			"EP" : "83",
+			"EP" : "126",
  			"URL" : "http://sockshare.net/watch/kvXRgKGe-jeopardy-season-2017.html"
 		},
 		{
-			"Title" : "Akame ga Kill",
-			"EP" : "11",
-			"URL" : "http://www.crunchyroll.com/akame-ga-kill"
+			"Title" : "Fate/Kaleid Liner Prisma Illya",
+			"EP" : "4",
+			"URL" : "http://www.crunchyroll.com/fatekaleid-liner-prisma-illya"
+		},
+		{
+			"Title" : "Locodol",
+			"EP" : "1",
+			"URL" : "http://www.crunchyroll.com/locodol"
+		},
+		{
+			"Title" : "Minami-ke",
+			"EP" : "7",
+			"URL" : "https://kissanime.io/Anime/Minami-ke.68269/"
 		}
 	],
 
-	"Current Season" : [
+	"Current-Season" : [
 		{
 			"Title" : "Fate Apocyra",
- 			"EP" : "03",
-			"DOW" : "Sunday",
+ 			"EP" : "6",
+			"DOW" : "0: Sunday",
 			"URL" : "http://anilinkz.to/series/fate-apocrypha"
+		},
+		{
+			"Title" : "Princess Principal",
+			"EP" : "2",
+			"DOW" : "0 : Sunday",
+			"URL" : "http://anilinkz.to/series/princess-principal"
+		},
+		{
+			"Title" : "Rick and Morty",
+			"EP" : "2",
+			"DOW" : "0: Sunday",
+			"URL" : "http://www.adultswim.com/videos/rick-and-morty/"
 		}
 	],
 
 	"Crunchyroll" : [
 		{
 			"Title" : "Boku no Hero Academia", 
-			"DOW" : "Saturday",
+			"DOW" : "6: Saturday",
 			"Time" : "02:30"
 		},
 		{
 			"Title" : "Centaur's Life", 
-			"DOW" : "Sunday",
+			"DOW" : "0: Sunday",
 			"Time" : "07:30"
 		},
 		{
 			"Title" : "Clean Freak Aoyama-kun", 
-			"DOW" : "Sunday",
+			"DOW" : "0: Sunday",
 			"Time" : "09:30"
 		},
 		{
 			"Title" : "Resturaunt to Another World", 
-			"DOW" : "Monday",
+			"DOW" : "1: Monday",
 			"Time" : "11:05 "
 		},
 		{
 			"Title" : "New Game", 
-			"DOW" : "Tuesday",
+			"DOW" : "2: Tuesday",
 			"Time" : "07:00"
 		},
 		{
-			"Title" : "Fastest Finger First", 
-			"DOW" : "Tuesday",
-			"Time" : "12:30"
-		},
-		
-		{
 			"Title" : "Sakura Quest", 
-			"DOW" : "Wednesday",
+			"DOW" : "3: Wednesday",
 			"Time" : "09:00"
 		},
 		{
 			"Title" : "Classroom of the elite", 
-			"DOW" : "Wednesday",
+			"DOW" : "3: Wednesday",
 			"Time" : "09:00"
 		}
 	],
 
 	"Finished" : [
 		{
+			"Title" : "Joukamachi no Dandelion",
+			"Date" : "8/10/2017",
+			"L Score" : "0",
+			"C Score" : "6"
+		},
+		{
+			"Title" : "Fastest Finger First",
+			"Date" : "8/8/2017",
+			"L Score" : "0",
+			"C Score" : "2"
+		},
+		{
+			"Title" : "Gourmet girl graffiti",
+			"Date" : "8/5/2017",
+			"L Score" : "8",
+			"C Score" : "7"
+		},
+		{
+			"Title" : "Mob Psycho 100",
+			"Date" : "7/31/2017",
+			"L Score" : "3",
+			"C Score" : "5"
+		},
+		{
+			"Title" : "Akame ga Kill",
+			"Date" : "7/29/2017",
+			"L Score" : "7",
+			"C Score" : "7"
+		},
+		{
 			"Title" : "sabagebu! - Survival Game Club!",
-			"Date" : "March 2017"
+			"Date" : "4/1/2017",
+			"L Score" : "7",
+			"C Score" : "7"
  		},
 		{
 			"Title" : "Yuyushiki",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "8",
+			"C Score" : "8"
  		},
 		{
 			"Title" : "Black rock shooter",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "6",
+			"C Score" : "6"
  		},
 		{
 			"Title" : "Mikagura gakuen",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "7",
+			"C Score" : "8"
  		},
 		{
 			"Title" : "Amanchu",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "6",
+			"C Score" : "7"
  		},
 		{
 			"Title" : "Erased",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "8",
+			"C Score" : "8"
  		},
 		{
 			"Title" : "Flying witch",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "9",
+			"C Score" : "9"
  		},
 		{
 			"Title" : "Anne Happy",
-			"Date" : "Unknown"
+			"Date" : "1/1/2017",
+			"L Score" : "7",
+			"C Score" : "8"
  		}
 	]
 }
